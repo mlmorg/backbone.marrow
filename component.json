@@ -1,0 +1,15 @@
+{
+  "name": "backbone.marrow",
+  "version": "0.1.0",
+  "main": "backbone.marrow.js",
+  "dependencies": {
+    "underscore": "~1.4.4",
+    "backbone": "~0.9.10"
+  },
+  "devDependencies": {
+    "jquery": "~1.9.1",
+    "mocha": "~1.8.1",
+    "sinon": "~1.6.0",
+    "chai": "~1.5.0"
+  }
+}

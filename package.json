@@ -1,0 +1,22 @@
+{
+  "name": "backbone.marrow",
+  "version": "0.1.0",
+  "author": "Matt Morgan (@mlmorg)",
+  "description": "",
+  "homepage": "https://github.com/mlmorg/backbone.marrow",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mlmorg/backbone.marrow.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "~0.1.3",
+    "grunt-contrib-jshint": "~0.3.0",
+    "grunt-mocha": "~0.2.3"
+  },
+  "scripts": {
+    "install": "bower install",
+    "test": "grunt jshint mocha"
+  },
+  "license": "MIT"
+}
