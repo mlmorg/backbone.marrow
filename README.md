@@ -10,9 +10,7 @@ id and url will return the same model instance. For example:
 ```javascript
 var Contact = Backbone.Model.extend({
   cache: true,
-  url: function () {
-    return '/contacts/' + this.id;
-  }
+  urlRoot: '/contacts'
 });
   
 new Contact({ id: 123 }) === new Contact({ id: 123 }) // true
